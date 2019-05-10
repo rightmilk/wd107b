@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>個人資料調查表</title>
+</head>
+<center>
+<body>
+
+<h1>個人資料調查表</h1>
+</center>
+
+<form action="">
+<fieldset>
+<legend>個人資料:</legend>
+你的名字：<input type="text" name="name"><br>
+請問你是 
+<input type="radio" name="sex" value="male">男生
+<input type="radio" name="sex" value="female">女生<br>
+是否有兄弟姐妹？
+<input type="checkbox" name="vehicle" value="ybrother">兄
+<input type="checkbox" name="vehicle" value="ysister">弟
+<input type="checkbox" name="vehicle" value="obrother">姊
+<input type="checkbox" name="vehicle" value="osister">妹<br>
+
+<form action="demo-form.php">
+	生日: <input type="date" name="bday">
+	<br>
+	E-mail: <input type="email" name="usremail">
+	<br>
+	請問你的血型：
+<input type="radio" name="sex" value="a">A
+<input type="radio" name="sex" value="b">B
+<input type="radio" name="sex" value="o">O
+<input type="radio" name="sex" value="ab">AB
+<input type="radio" name="sex" value="other">其他<br>
+星座：
+<select>
+  <option value="a">牡羊</option>
+  <option value="b">金牛</option>
+  <option value="c">雙子</option>
+  <option value="d">巨蟹</option>
+	<option value="e">獅子</option>
+  <option value="f">處女</option>
+  <option value="g">天秤</option>
+  <option value="h">天蠍</option>
+	<option value="i">射手</option>
+  <option value="j">摩羯</option>
+  <option value="k">水瓶</option>
+  <option value="l">雙魚</option>
+</select>
+</form>
+</fieldset>
+<form action="demo-form.php">
+	<br>
+  	選一個尬意的顏色: <input type="color" name="favcolor">
+  	<br>
+	貼上你最愛的音樂連結(youtube): <input type="url" name="homepage"><br>
+	1到100喜歡的數字: <input type="number" name="quantity" min="1" max="100"><br>
+	<form action="demo-form.php" method="get"><br>
+<center>
+<textarea rows="10" cols="30">
+想對我說的話。
+</textarea><br>
+滿意度調查: <input type="range" name="point" min="1" max="11"><br>
+<button type="button" onclick="alert('感謝你完成你的個人資料')">提交</button>
+
+</form>
+</form>
+</form>
+</body>
+</html>
+</center>
