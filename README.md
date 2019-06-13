@@ -7,4 +7,4 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
-我的專案 |[123]()
+我的專案 |[右乳a個人網站](https://github.com/rightmilk/wd107b/tree/master/Final%20exam)
