@@ -7,7 +7,7 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
-我的專案 |[右乳a個人網站](https://github.com/rightmilk/wd107b/tree/master/Final%20exam)
+我的專案 |[右乳a個人網站](https://github.com/rightmilk/wd107b/tree/master/FinalExam)
 
 1.利用側欄滑動功能隱藏側欄
    2.改變icon圖示
